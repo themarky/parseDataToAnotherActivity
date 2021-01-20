@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">parseDataToAnotherActivity</string>
+    <string name="activity1">This is 1st activity</string>
+    <string name="activity2">This is 2nd activity</string>
+    <string name="nextActivityBtn">Go To Next Activity</string>
+</resources>

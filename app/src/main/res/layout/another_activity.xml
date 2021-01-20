@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".another_activity"
+    android:background="#00B8D4"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/activity2Tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="300dp"
+        android:textColor="#000000"
+        android:text="@string/activity2"
+        android:textSize="30dp"
+        android:layout_gravity="right"
+        android:background="@color/white"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:paddingRight="4dp"
+        android:paddingLeft="4dp"
+        />
+    <TextView
+        android:id="@+id/parsedDataTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:textColor="#000000"
+        android:textSize="29dp"
+        android:background="@color/white"
+        android:layout_gravity="left"
+        android:fontFamily="serif-monospace"
+        android:gravity="left"
+        android:visibility="gone"
+        />
+
+
+</LinearLayout>
